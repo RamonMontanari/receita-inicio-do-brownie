@@ -1,0 +1,104 @@
+.background{
+    margin: 0 262px;
+    Width: 916px;
+    background: #F0F0F0;
+    padding: 24px 59px 63px 59px;
+}
+
+.box {
+    width: 798px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box; /*faz com que o Padding não expanda pra fora do width/height (não creças quando ouver Padding) */    
+    margin: 24px 59px 37px;
+}
+
+.title {
+    color:#ff6a28;
+    text-transform: uppercase; /*letras maiúsculas*/
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.image {
+    margin-top: 14px;
+}
+
+.info-box {
+    width: 118px;
+    height: 85px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    margin:10px 9px 12px 0;
+    
+}
+
+.info-box .info-text {
+    font: size 14px;
+}
+
+strong {
+    color:#ff6a28;
+}
+
+.container {
+    display: flex; /* deixa os filhos do Container flexíveis */         
+}
+
+.info-member-box {
+    width: 238px;
+    height: 85px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    margin:10px 0 12px 0;
+
+}
+
+h3 {
+    font-size: 20px;
+    color:#ff6a28;
+    text-transform: uppercase;
+}
+
+.ingredients-box {
+    
+    font-size: 14px;
+    margin: 12px 0 30px 27px;
+    box-sizing: border-box;
+}
+
+.preparation-box {
+    font-size: 14px;
+    margin: 16px 26px 33px 27px;
+    box-sizing: border-box;
+}
+
+.additional-box {
+    width: 798px;
+    height: 356px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 59px;
+    padding: 15px 22px;
+    box-sizing: border-box;
+}
+
+.add-box {
+    width: 754px;
+    height: 34px;
+    padding: 8px 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    background-color: #F0F0F0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.add-text {
+    margin: 16px 33px 21px 22px;
+    box-sizing: border-box;
+    line-height: 18px;
+}
