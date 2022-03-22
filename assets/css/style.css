@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
 .background{
     margin: 0 262px;
     Width: 916px;
@@ -10,13 +15,13 @@
     background-color: #ffffff;
     border-radius: 5px;
     padding: 20px;
-    box-sizing: border-box; /*faz com que o Padding não expanda pra fora do width/height (não creças quando ouver Padding) */    
+    box-sizing: border-box; 
     margin: 24px 59px 37px;
 }
 
 .title {
     color:#ff6a28;
-    text-transform: uppercase; /*letras maiúsculas*/
+    text-transform: uppercase;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 8px;
@@ -44,7 +49,7 @@ strong {
 }
 
 .container {
-    display: flex; /* deixa os filhos do Container flexíveis */         
+    display: flex;
 }
 
 .info-member-box {
